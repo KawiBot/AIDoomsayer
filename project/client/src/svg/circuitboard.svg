@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 600">
+  <defs>
+    <pattern id="circuit-board" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect fill="#111" x="0" y="0" width="20" height="20" />
+      <rect fill="#000" x="2" y="2" width="16" height="16" />
+      <circle fill="#0f0" cx="4" cy="4" r="2" />
+      <circle fill="#0f0" cx="16" cy="4" r="2" />
+      <circle fill="#0f0" cx="4" cy="16" r="2" />
+      <circle fill="#0f0" cx="16" cy="16" r="2" />
+    </pattern>
+  </defs>
+  <rect fill="url(#circuit-board)" width="100%" height="100%" />
+</svg>

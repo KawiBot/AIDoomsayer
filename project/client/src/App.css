@@ -1,0 +1,43 @@
+/* Define the color variables */
+:root {
+	--black: #000000;
+	--white: #ffffff;
+	--teal: #00ffff;
+	--pink: #ff00ff;
+	--purple: #800080;
+}
+
+body {
+	background-color: var(--black);
+	color: var(--white);
+	font-family: "Libre Baskerville", sans-serif;
+}
+
+a {
+	color: var(--teal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--teal);
+}
+
+button,
+input[type="submit"] {
+	background-color: var(--teal);
+	color: var(--white);
+}
+
+/* Example of using neon accents for a button hover effect */
+button:hover,
+input[type="submit"]:hover {
+	box-shadow: 0 0 10px var(--teal), 0 0 20px var(--pink), 0 0 30px var(--purple);
+}
+@font-face {
+	font-family: "Libre Baskerville";
+	src: url("./font/LibreBaskerville-Regular.ttf");
+}

@@ -1,0 +1,43 @@
+# Ignore IDE or text editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*~
+
+# Ignore compiled code or binary files
+*.class
+*.o
+*.dll
+*.exe
+*.pyc
+
+# Ignore dependency or package manager files
+node_modules/
+vendor/
+composer.lock
+Gemfile.lock
+
+# Ignore log files or output files
+*.log
+*.out
+*.xml
+
+# Ignore configuration files or sensitive information
+.env
+*.conf
+*.ini
+*.key
+
+# Ignore temporary files or cache directories
+.DS_Store
+.cache/
+*.tmp
+*.bak
+
+# Ignore media files or assets
+*.jpg
+*.png
+*.gif
+*.mp3
+*.mp4
